@@ -1,8 +1,16 @@
 *{
     background-color: #F5F8FF;
+    margin: 0;
+    padding: 0;
 }
 header{
     margin-top: 30px;
+}
+.font_Noto {
+    font-family: "Noto Serif", serif;
+}
+.font_Inter {
+    font-family: "Inter", sans-serif;
 }
 .container{
     max-width: 1140px;
@@ -14,6 +22,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    margin-top: 30px;
+
 }
 .nav_links{
     display: flex;
@@ -41,9 +51,43 @@ header{
 .nav_links li:nth-child(4) a {
     color: black;
 }
+/* Shared  */
+.orange{
+color:#E95A08 ;
 
 
-@media (max-width:576px)  {
+}
+/* -- Banner Section -- */
+.bannere_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+.banner_header{
+    font-size: 4rem;
+}
+.banner_style{
+    color: #E95A08;
+}
+.font_Inter{
+    font-size: 1.37rem;
+    color: #8987A1;
+}
+.banner_img{
+    width: 100%;
+    max-width: 570px;
+}
+.banner_img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+@media screen and (max-width:576px)
+    
+  {
     /* Navigation Bar */
 .nav_item{
     display: none;
@@ -51,4 +95,22 @@ header{
 .nav_item:nth-child(4){
     display: block;
 }
+.banner_header{
+    font-size: 1.5rem;
 }
+.bannere_section{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.banner_header{
+    margin: 28px 16px 13px 16px;
+   text-align: left;
+   }
+.banner_p{
+    margin: 13px 16px 65px 16px;
+    font-size: 1.14rem;
+}
+} 
+
+
+
