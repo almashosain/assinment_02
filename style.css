@@ -161,6 +161,7 @@ margin: 20px 94px 30px 94px;
 }
 /* Trusted Section */
 .trusted{
+    position: relative;
 display: flex;
 height: 600px;
 margin-top: 200px;
@@ -187,9 +188,16 @@ margin: 38px 0 38px 0;
     font-size: 1.5rem;
     
 }
-
-
-
+.trust{
+    height: 250px;
+    width: 250px;
+    background-color: transparent;
+    color: #000000;
+    position: absolute;
+    right: 43%;
+    bottom: 81%;
+    transform: translate(-0% -100%);    
+}
 
 
 
@@ -259,7 +267,7 @@ width: 100%;
   }
 
 
-  
+
 } 
 
 
